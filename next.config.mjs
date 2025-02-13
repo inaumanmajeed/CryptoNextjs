@@ -25,6 +25,4 @@ export default {
 
     return config;
   },
-  assetPrefix: "/CryptoNextjs/",
-  basePath: "/CryptoNextjs",
 };
