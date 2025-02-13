@@ -1,4 +1,3 @@
-// next.config.mjs
 import path from "path";
 
 export default {
@@ -26,4 +25,6 @@ export default {
 
     return config;
   },
+  assetPrefix: "/CryptoNextjs/",
+  basePath: "/CryptoNextjs",
 };

@@ -2,11 +2,13 @@
   "name": "cryptowebapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://inaumanmajeed.github.io/CryptoNextjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && npm run export && gh-pages -d out"
   },
   "dependencies": {
     "@emotion/cache": "^11.13.1",
@@ -25,6 +27,7 @@
     "@svgr/webpack": "^8.1.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0"
   }
 }
